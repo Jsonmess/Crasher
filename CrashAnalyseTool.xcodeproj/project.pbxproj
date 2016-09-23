@@ -12,6 +12,9 @@
 		2970CF461D93C689004FDF86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2970CF451D93C689004FDF86 /* Assets.xcassets */; };
 		2970CF491D93C689004FDF86 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2970CF471D93C689004FDF86 /* MainMenu.xib */; };
 		2970CF541D93C689004FDF86 /* CrashAnalyseToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970CF531D93C689004FDF86 /* CrashAnalyseToolUITests.m */; };
+		2970CF601D93C7EE004FDF86 /* DragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970CF5F1D93C7EE004FDF86 /* DragDropView.m */; };
+		2970CF631D93C8FF004FDF86 /* MainWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970CF621D93C8FF004FDF86 /* MainWindowViewController.m */; };
+		2970CF651D93D027004FDF86 /* MainWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2970CF641D93D027004FDF86 /* MainWindowViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 		2970CF4F1D93C689004FDF86 /* CrashAnalyseToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashAnalyseToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2970CF531D93C689004FDF86 /* CrashAnalyseToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashAnalyseToolUITests.m; sourceTree = "<group>"; };
 		2970CF551D93C689004FDF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2970CF5E1D93C7EE004FDF86 /* DragDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropView.h; sourceTree = "<group>"; };
+		2970CF5F1D93C7EE004FDF86 /* DragDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropView.m; sourceTree = "<group>"; };
+		2970CF611D93C8FF004FDF86 /* MainWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowViewController.h; sourceTree = "<group>"; };
+		2970CF621D93C8FF004FDF86 /* MainWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowViewController.m; sourceTree = "<group>"; };
+		2970CF641D93D027004FDF86 /* MainWindowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,11 @@
 		2970CF3E1D93C689004FDF86 /* CrashAnalyseTool */ = {
 			isa = PBXGroup;
 			children = (
+				2970CF5E1D93C7EE004FDF86 /* DragDropView.h */,
+				2970CF5F1D93C7EE004FDF86 /* DragDropView.m */,
+				2970CF611D93C8FF004FDF86 /* MainWindowViewController.h */,
+				2970CF621D93C8FF004FDF86 /* MainWindowViewController.m */,
+				2970CF641D93D027004FDF86 /* MainWindowViewController.xib */,
 				2970CF3F1D93C689004FDF86 /* AppDelegate.h */,
 				2970CF401D93C689004FDF86 /* AppDelegate.m */,
 				2970CF451D93C689004FDF86 /* Assets.xcassets */,
@@ -188,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2970CF461D93C689004FDF86 /* Assets.xcassets in Resources */,
+				2970CF651D93D027004FDF86 /* MainWindowViewController.xib in Resources */,
 				2970CF491D93C689004FDF86 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,7 +221,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2970CF441D93C689004FDF86 /* main.m in Sources */,
+				2970CF631D93C8FF004FDF86 /* MainWindowViewController.m in Sources */,
 				2970CF411D93C689004FDF86 /* AppDelegate.m in Sources */,
+				2970CF601D93C7EE004FDF86 /* DragDropView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +415,7 @@
 				2970CF5A1D93C689004FDF86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2970CF5B1D93C689004FDF86 /* Build configuration list for PBXNativeTarget "CrashAnalyseToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +424,7 @@
 				2970CF5D1D93C689004FDF86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
