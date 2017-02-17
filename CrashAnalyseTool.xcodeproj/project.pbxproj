@@ -14,7 +14,9 @@
 		2970CF541D93C689004FDF86 /* CrashAnalyseToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970CF531D93C689004FDF86 /* CrashAnalyseToolUITests.m */; };
 		2970CF601D93C7EE004FDF86 /* DragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970CF5F1D93C7EE004FDF86 /* DragDropView.m */; };
 		2970CF631D93C8FF004FDF86 /* MainWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2970CF621D93C8FF004FDF86 /* MainWindowViewController.m */; };
-		2970CF651D93D027004FDF86 /* MainWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2970CF641D93D027004FDF86 /* MainWindowViewController.xib */; };
+		29A6C9F81E56E72800E75C55 /* MainWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A6C9FA1E56E72800E75C55 /* MainWindowViewController.xib */; };
+		29A6CA021E56EE8C00E75C55 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29A6CA001E56E84600E75C55 /* Localizable.strings */; };
+		29A6CA031E56EEB400E75C55 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29A6CA001E56E84600E75C55 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,6 @@
 		2970CF401D93C689004FDF86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2970CF431D93C689004FDF86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2970CF451D93C689004FDF86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2970CF481D93C689004FDF86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2970CF4A1D93C689004FDF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2970CF4F1D93C689004FDF86 /* CrashAnalyseToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashAnalyseToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2970CF531D93C689004FDF86 /* CrashAnalyseToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashAnalyseToolUITests.m; sourceTree = "<group>"; };
@@ -42,7 +43,12 @@
 		2970CF5F1D93C7EE004FDF86 /* DragDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropView.m; sourceTree = "<group>"; };
 		2970CF611D93C8FF004FDF86 /* MainWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowViewController.h; sourceTree = "<group>"; };
 		2970CF621D93C8FF004FDF86 /* MainWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowViewController.m; sourceTree = "<group>"; };
-		2970CF641D93D027004FDF86 /* MainWindowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowViewController.xib; sourceTree = "<group>"; };
+		29A6C9F61E56E64000E75C55 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		29A6C9F71E56E64000E75C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29A6C9F91E56E72800E75C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindowViewController.xib; sourceTree = "<group>"; };
+		29A6C9FD1E56E74600E75C55 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainWindowViewController.xib"; sourceTree = "<group>"; };
+		29A6C9FF1E56E84600E75C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		29A6CA011E56E84800E75C55 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,13 +94,14 @@
 				2970CF5F1D93C7EE004FDF86 /* DragDropView.m */,
 				2970CF611D93C8FF004FDF86 /* MainWindowViewController.h */,
 				2970CF621D93C8FF004FDF86 /* MainWindowViewController.m */,
-				2970CF641D93D027004FDF86 /* MainWindowViewController.xib */,
+				29A6C9FA1E56E72800E75C55 /* MainWindowViewController.xib */,
 				2970CF3F1D93C689004FDF86 /* AppDelegate.h */,
 				2970CF401D93C689004FDF86 /* AppDelegate.m */,
 				2970CF451D93C689004FDF86 /* Assets.xcassets */,
 				2970CF471D93C689004FDF86 /* MainMenu.xib */,
 				2970CF4A1D93C689004FDF86 /* Info.plist */,
 				2970CF421D93C689004FDF86 /* Supporting Files */,
+				29A6CA001E56E84600E75C55 /* Localizable.strings */,
 			);
 			path = CrashAnalyseTool;
 			sourceTree = "<group>";
@@ -183,6 +190,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 2970CF331D93C689004FDF86;
 			productRefGroup = 2970CF3D1D93C689004FDF86 /* Products */;
@@ -201,7 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2970CF461D93C689004FDF86 /* Assets.xcassets in Resources */,
-				2970CF651D93D027004FDF86 /* MainWindowViewController.xib in Resources */,
+				29A6CA021E56EE8C00E75C55 /* Localizable.strings in Resources */,
+				29A6C9F81E56E72800E75C55 /* MainWindowViewController.xib in Resources */,
 				2970CF491D93C689004FDF86 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A6CA031E56EEB400E75C55 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +259,30 @@
 		2970CF471D93C689004FDF86 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2970CF481D93C689004FDF86 /* Base */,
+				29A6C9F61E56E64000E75C55 /* zh-Hans */,
+				29A6C9F71E56E64000E75C55 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
+		};
+		29A6C9FA1E56E72800E75C55 /* MainWindowViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A6C9F91E56E72800E75C55 /* en */,
+				29A6C9FD1E56E74600E75C55 /* zh-Hans */,
+			);
+			name = MainWindowViewController.xib;
+			sourceTree = "<group>";
+		};
+		29A6CA001E56E84600E75C55 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29A6C9FF1E56E84600E75C55 /* en */,
+				29A6CA011E56E84800E75C55 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			path = CrashAnalyseTool;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -261,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -308,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

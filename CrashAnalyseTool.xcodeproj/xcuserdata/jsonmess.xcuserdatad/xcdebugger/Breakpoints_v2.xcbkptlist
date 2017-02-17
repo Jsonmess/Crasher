@@ -16,7 +16,7 @@
             startingLineNumber = "17"
             endingLineNumber = "17"
             landmarkName = "-initWithFrame:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,7 +32,7 @@
             startingLineNumber = "27"
             endingLineNumber = "27"
             landmarkName = "-init"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CrashAnalyseTool/MainWindowViewController.m"
-            timestampString = "496294969.087658"
+            timestampString = "509013496.844006"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
             landmarkName = "-beginToAnalysisCrashFile"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,12 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CrashAnalyseTool/MainWindowViewController.m"
-            timestampString = "496294969.087658"
+            timestampString = "509014645.375057"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "-writeToFileWithContent:"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-setUpView"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

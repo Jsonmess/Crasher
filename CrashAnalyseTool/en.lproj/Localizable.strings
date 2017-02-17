@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  CrashAnalyseTool
+
+  Created by jsonmess on 2017/2/17.
+  Copyright © 2017年 com.jsonmess.CrashAnalyseTool. All rights reserved.
+*/
+"alert" = "Alert";
+"warning" = "Warning";
+"confirm" = "OK";
+"cancel" = "Cancel";
+"nofile" = "Can't find the crash log file";
+"successWriteLog" = "Write to the file successfully!";
+"analysing" = "Parsing, please later...\n";
+"noXcode" = "Can not find Xcode, please download the Xcode in AppStore";
+"finishedAnalyseLog" = "Parsing is complete..\n Writing to the file...\n";
+"errorWriteLog" = "Failed to write the content into file, please try again";
+
+"defaultTitle" = "Waiting...\n\n Introductions:\n  \"dsyml file、crash file and .app folder \"  ensure that in the same folder ：）\n\n";
+
