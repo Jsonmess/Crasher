@@ -15,5 +15,5 @@
 "noXcode" = "找不到Xcode，请先前往AppStore 下载Xcode";
 "finishedAnalyseLog" = "解析完成..\n正在写入文件\n";
 "errorWriteLog" = "解析内容写入文件失败，请重试";
-"defaultTitle" = "等待解析...\n\n小提示:\n  dsyml文件、crash日志文件和.app 确保放到同一个文件夹 ：）\n\n";
+"defaultTitle" = "等待解析...\n\n小提示:\n  dSYM文件、crash日志文件和.app 确保放到同一个文件夹 ：）\n\n";
 

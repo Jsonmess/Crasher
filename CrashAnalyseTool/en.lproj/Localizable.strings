@@ -16,5 +16,5 @@
 "finishedAnalyseLog" = "Parsing is complete..\n Writing to the file...\n";
 "errorWriteLog" = "Failed to write the content into file, please try again";
 
-"defaultTitle" = "Waiting...\n\n Introductions:\n  \"dsyml file、crash file and .app folder \"  ensure that in the same folder ：）\n\n";
+"defaultTitle" = "Waiting...\n\n Introductions:\n  \"dSYM file、crash file and .app folder \"  ensure that in the same folder ：）\n\n";
 
