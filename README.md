@@ -18,7 +18,7 @@ This Tool use Xcode internal command line tool **“symbolicatecrash”** ，Hop
 Now You Know what should we do if we want the **symbolicatecrash** to analyse ios crash log file. is tedious ?
 
 ####二.使用说明（The instructions）
-   This tool is very simple to use,here is the screen napshort（截图）：  
+   This tool is very simple to use,here is the app screenshots（截图）：  
    <img src="https://raw.githubusercontent.com/Jsonmess/Crasher/master/Screenshots/screen.png" width="300" height="280"/>
 #####操作步骤（Steps） 
 ######中文：  
