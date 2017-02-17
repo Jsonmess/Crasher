@@ -48,7 +48,7 @@
             startingLineNumber = "106"
             endingLineNumber = "106"
             landmarkName = "-beginToAnalysisCrashFile"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -64,7 +64,7 @@
             startingLineNumber = "133"
             endingLineNumber = "133"
             landmarkName = "-writeToFileWithContent:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
