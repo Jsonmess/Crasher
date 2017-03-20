@@ -19,7 +19,8 @@ Now You Know what should we do if we want the **symbolicatecrash** to analyse io
 
 ####二.使用说明（The instructions）
    This tool is very simple to use,here is the app screenshots（截图）：  
-   <img src="https://raw.githubusercontent.com/Jsonmess/Crasher/master/Screenshots/screen.png" width="300" height="280"/>
+   <img src="https://raw.githubusercontent.com/Jsonmess/Crasher/master/Screenshots/screen.png" width="300" height="280"/>  
+   
 #####操作步骤（Steps） 
 ######中文：  
     1)将dSYM文件和.crash 文件以及 .app 文件放到同一个文件夹；  
