@@ -15,7 +15,7 @@ This Tool use Xcode internal command line tool **“symbolicatecrash”** ，Hop
 
 操作**symbolicatecrash**是否觉得有些繁琐、浪费时间？
  
-Now You Know what should we do if we want the **symbolicatecrash** to analyse ios crash log file. is tedious ?
+Now You Know what should we do if we want the **symbolicatecrash** to analyse ios crash log file, is tedious ?
 
 ####二.使用说明（The instructions）
    This tool is very simple to use,here is the app screenshots（截图）：  
